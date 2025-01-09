@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div data-pagefind-body>
+  <h1>hey</h1>
     {{ partial "bookshop_bindings" `.Params` }}
     {{ partial "bookshop" (slice "hero" .Params) }}
     {{ partial "bookshop_bindings" `.Params.content_blocks` }}
